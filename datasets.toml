@@ -1,0 +1,23 @@
+[[datasets]]
+id = "https://nadd.network/info/open-data#nadd-creators"
+name = "NADD Creators"
+slug = "nadd-creators"
+description_en = "The NADD Creators set consists of individuals and organisations relevant to the Dutch design field. The main part consists of creators who are themselves Dutch, but that is not necessary. Creators who have lived in the Netherlands for a long time, for example, or have lived here for a long time, also fall within this set. This is a subset of our NADD Project Set. For most projects, we recommend this set as a starting point."
+description_nl = "De NADD Creators-set bestaat uit personen en organisaties die relevant zijn voor het Nederlandse ontwerpveld. De hoofdmoot bestaat uit makers die zelf ook Nederlands zijn, maar dat hoeft niet. Ook makers die bijvoorbeeld al lang in Nederland wonen, of hier lang gewoond hebben vallen binnen deze set. Deze is een subset van onze NADD Projectset. Voor de meeste projecten raden we deze set aan als startpunt."
+sparql_query = "select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ133504755.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}"
+
+[[datasets]]
+id = "https://nadd.network/info/open-data#nadd-projectset"
+name = "NADD Project set"
+slug = "nadd-projectset"
+description_en = "The NADD Project set is the 'mother set' from which all other sets are derived, also known as the 'NADD Wikidata project' set. This set is broader than the Creators set. It includes, for example, professions and countries, and people who are important to the design field but don't necessarily have a strong connection to Dutch design."
+description_nl = "Dit is de 'moederset' waar alle andere sets onderdeel van uitmaken, ook bekend als de 'NADD Wikidata project'-set. Deze set is ruimer dan de Creators-set. Er zitten hier bijvoorbeeld ook beroepen en landen in, en personen die belangrijk zijn voor het ontwerpveld maar niet per definitie een sterke band hebben met het Nederlandse ontwerpveld."
+sparql_query = "select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ123694075.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}"
+
+[[datasets]]
+id = "https://nadd.network/info/open-data#nadd-occupations"
+name = "NADD Occupations"
+slug = "nadd-occupations"
+description_en = "This relatively small set is a subset of the project set and contains occupations relevant to NADD such as 'graphic designer', 'stamp designer', and 'multimedia artist'. This set is used internally to properly manage the 'creator' set."
+description_nl = "Deze relatief kleine set is een subset van de projectset met voor NADD relevante beroepen zoals 'graficus', 'postzegelontwerper' en 'multimedia-kunstenaar'. Deze set wordt intern gebruikt om de 'creator'-set goed te beheren."
+sparql_query = "select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ133270020.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}"

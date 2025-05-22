@@ -1,0 +1,18 @@
+"publisher": {
+    "@type": "Organization",
+    "@id": "https://nadd.network/",
+    "name": [
+        {
+            "@language": "nl",
+            "@value": "Netwerken Archieven Design en Digitale cultuur"
+        },
+        {
+            "@language": "en",
+            "@value": "Network Archives Design and Digital Culture"
+        }
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@nadd.network"
+    }
+},

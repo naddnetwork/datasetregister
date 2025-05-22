@@ -1,0 +1,105 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "https://nadd.network/info/open-data#nadd-creators",
+    "name": "NADD Creators",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "dateCreated": "2024-02-01T12:00",
+    "dateModified": "2025-05-22T16:56",
+    "datePublished": "2025-06-12T12:00",
+    "inLanguage": [
+        "nl-NL",
+        "en-US"
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "@id": "https://nadd.network/",
+        "identifier": "NL-RtHNI",
+        "name": [
+            {
+                "@language": "nl",
+                "@value": "Netwerken Archieven Design en Digitale cultuur"
+            },
+            {
+                "@language": "en",
+                "@value": "Network Archives Design and Digital Culture"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "name": "NADD Contactpunt",
+            "email": "contact@nadd.network"
+        }
+    },
+    "description": [
+        {
+            "@language": "nl",
+            "@value": "De NADD Creators-set bestaat uit personen en organisaties die relevant zijn voor het Nederlandse ontwerpveld. De hoofdmoot bestaat uit makers die zelf ook Nederlands zijn, maar dat hoeft niet. Ook makers die bijvoorbeeld al lang in Nederland wonen, of hier lang gewoond hebben vallen binnen deze set. Deze is een subset van onze NADD Projectset. Voor de meeste projecten raden we deze set aan als startpunt."
+        },
+        {
+            "@language": "en",
+            "@value": "The NADD Creators set consists of individuals and organisations relevant to the Dutch design field. The main part consists of creators who are themselves Dutch, but that is not necessary. Creators who have lived in the Netherlands for a long time, for example, or have lived here for a long time, also fall within this set. This is a subset of our NADD Project Set. For most projects, we recommend this set as a starting point."
+        }
+    ],
+    "creator": {
+        "@type": "Organization",
+        "@id": "https://nadd.network/",
+        "identifier": "NL-RtHNI",
+        "name": [
+            {
+                "@language": "nl",
+                "@value": "Netwerken Archieven Design en Digitale cultuur"
+            },
+            {
+                "@language": "en",
+                "@value": "Network Archives Design and Digital Culture"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "name": "NADD Contactpunt",
+            "email": "contact@nadd.network"
+        }
+    },
+    "spatialCoverage": "the Netherlands",
+    "temporalCoverage": "1440/..",
+    "mainEntityOfPage": [
+        {
+            "@language": "nl",
+            "@value": "https://nadd.network/info/open-data"
+        },
+        {
+            "@language": "en",
+            "@value": "https://nadd.network/en/info/open-data"
+        }
+    ],
+    "keywords": [
+        "design",
+        "ontwerp",
+        "vormgeving",
+        "digitale cultuur",
+        "digital culture",
+        "wikidata",
+        "nadd"
+    ],
+    "genre": [
+        "Erfgoed",
+        "Heritage",
+        "Design"
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "NADD Creators SPARQL query",
+            "encodingFormat": "application/sparql-results+json",
+            "contentUrl": "https://query.wikidata.org/#select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ133504755.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}",
+            "description": "SPARQL endpoint",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "inLanguage": [
+                "nl-NL",
+                "en-US"
+            ]
+        }
+    ]
+}

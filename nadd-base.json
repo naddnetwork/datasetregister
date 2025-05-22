@@ -1,0 +1,105 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "@id": "<id>",
+    "name": "<name>",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "dateCreated": "2024-02-01T12:00",
+    "dateModified": "<date_modified>",
+    "datePublished": "2025-06-12T12:00",
+    "inLanguage": [
+        "nl-NL",
+        "en-US"
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "@id": "https://nadd.network/",
+        "identifier": "NL-RtHNI",
+        "name": [
+            {
+                "@language": "nl",
+                "@value": "Netwerken Archieven Design en Digitale cultuur"
+            },
+            {
+                "@language": "en",
+                "@value": "Network Archives Design and Digital Culture"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "name": "NADD Contactpunt",
+            "email": "contact@nadd.network"
+        }
+    },
+    "description": [
+        {
+            "@language": "nl",
+            "@value": "<description_nl>"
+        },
+        {
+            "@language": "en",
+            "@value": "<description_en>"
+        }
+    ],
+    "creator": {
+        "@type": "Organization",
+        "@id": "https://nadd.network/",
+        "identifier": "NL-RtHNI",
+        "name": [
+            {
+                "@language": "nl",
+                "@value": "Netwerken Archieven Design en Digitale cultuur"
+            },
+            {
+                "@language": "en",
+                "@value": "Network Archives Design and Digital Culture"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "name": "NADD Contactpunt",
+            "email": "contact@nadd.network"
+        }
+    },
+    "spatialCoverage": "the Netherlands",
+    "temporalCoverage": "1440/..",
+    "mainEntityOfPage": [
+        {
+            "@language": "nl",
+            "@value": "https://nadd.network/info/open-data"
+        },
+        {
+            "@language": "en",
+            "@value": "https://nadd.network/en/info/open-data"
+        }
+    ],
+    "keywords": [
+        "design",
+        "ontwerp",
+        "vormgeving",
+        "digitale cultuur",
+        "digital culture",
+        "wikidata",
+        "nadd"
+    ],
+    "genre": [
+        "Erfgoed",
+        "Heritage",
+        "Design"
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "<name>",
+            "encodingFormat": "application/sparql-results+json",
+            "contentUrl": "<sparql_query>",
+            "description": "SPARQL endpoint",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "inLanguage": [
+                "nl-NL",
+                "en-US"
+            ]
+        }
+    ]
+}
