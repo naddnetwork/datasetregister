@@ -1,0 +1,60 @@
+:root {
+    --c-bg: #292929;
+    --c-fg: #24af91;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background: var(--c-bg);
+    color: var(--c-fg);
+    font-size: 2rem;
+}
+
+p, ul {
+    margin-top: 2rem;
+}
+
+ul {
+    margin-left: 2rem;
+}
+
+a {
+    color: var(--c-fg);
+}
+
+h1 {
+    font-size: 3rem;
+    hyphens: auto;
+}
+
+h2 {
+    font-size: 2.6rem;
+    font-style: italic;;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+    display: block;
+}
+
+main {
+    max-width: 80rem;
+    margin: 4rem auto;
+    padding: 2rem;
+}
