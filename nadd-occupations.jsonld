@@ -6,7 +6,7 @@
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
     "version": "1.0",
     "dateCreated": "2024-02-01T12:00",
-    "dateModified": "2025-05-22T16:56",
+    "dateModified": "2025-05-27T12:32",
     "datePublished": "2025-06-12T12:00",
     "inLanguage": [
         "nl-NL",
@@ -35,11 +35,11 @@
     "description": [
         {
             "@language": "nl",
-            "@value": "Deze relatief kleine set is een subset van de projectset met voor NADD relevante beroepen zoals 'graficus', 'postzegelontwerper' en 'multimedia-kunstenaar'. Deze set wordt intern gebruikt om de 'creator'-set goed te beheren."
+            "@value": "Deze relatief kleine set is ontwikkeld zodat voor het NADD relevante beroepen goed te documenteren en visualiseren zijn. Denk aan beroepen zoals 'graficus', 'postzegelontwerper' en 'multimedia-kunstenaar'. Deze set wordt intern gebruikt om de 'NADD creator'-set goed te beheren en te visualiseren. Het idee is om in de toekomst aan deze set verder te werken met de partners van NADD, als een controlled vocabulary."
         },
         {
             "@language": "en",
-            "@value": "This relatively small set is a subset of the project set and contains occupations relevant to NADD such as 'graphic designer', 'stamp designer', and 'multimedia artist'. This set is used internally to properly manage the 'creator' set."
+            "@value": "This relatively small set has been developed so that professions relevant to NADD can be well documented and visualised. Think of professions such as \u201cgraphic designer\u201d, \u201cstamp designer\u201d and \u201cmultimedia artist\u201d. This set is used internally to properly manage and visualise the \u201cNADD creator\u201d set. The idea is to continue working on this set with NADD partners in the future, as a controlled vocabulary."
         }
     ],
     "creator": {
@@ -78,15 +78,20 @@
         "design",
         "ontwerp",
         "vormgeving",
+        "graphic design",
         "digitale cultuur",
         "digital culture",
         "wikidata",
-        "nadd"
+        "nadd",
+        "occupations",
+        "controlled vocabulary",
+        "thesaurus"
     ],
     "genre": [
         "Erfgoed",
         "Heritage",
-        "Design"
+        "Design",
+        "Digital culture"
     ],
     "distribution": [
         {

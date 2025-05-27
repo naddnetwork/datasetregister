@@ -6,7 +6,7 @@
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
     "version": "1.0",
     "dateCreated": "2024-02-01T12:00",
-    "dateModified": "2025-05-22T16:56",
+    "dateModified": "2025-05-27T12:32",
     "datePublished": "2025-06-12T12:00",
     "inLanguage": [
         "nl-NL",
@@ -35,11 +35,11 @@
     "description": [
         {
             "@language": "nl",
-            "@value": "De NADD Creators-set bestaat uit personen en organisaties die relevant zijn voor het Nederlandse ontwerpveld. De hoofdmoot bestaat uit makers die zelf ook Nederlands zijn, maar dat hoeft niet. Ook makers die bijvoorbeeld al lang in Nederland wonen, of hier lang gewoond hebben vallen binnen deze set. Deze is een subset van onze NADD Projectset. Voor de meeste projecten raden we deze set aan als startpunt."
+            "@value": "De NADD Creators dataset bevat relevante Nederlandse ontwerpers en organisaties, bepaald door criteria als opleiding, werkervaring, opname in museumcollecties, lidmaatschap van professionele organisaties, publicaties en prijzen. De dataset omvat zowel makers met een Nederlanders paspoort als ontwerpers die al geruime tijd in Nederland actief zijn. Het is een subset van de grotere NADD Projectset. Voor de meeste toepassingen raden we deze dataset aan."
         },
         {
             "@language": "en",
-            "@value": "The NADD Creators set consists of individuals and organisations relevant to the Dutch design field. The main part consists of creators who are themselves Dutch, but that is not necessary. Creators who have lived in the Netherlands for a long time, for example, or have lived here for a long time, also fall within this set. This is a subset of our NADD Project Set. For most projects, we recommend this set as a starting point."
+            "@value": "The NADD Creators dataset includes relevant Dutch designers and organisations, determined by criteria such as education, work experience, inclusion in museum collections, membership of professional organisations, publications and awards. The dataset includes Dutch nationals with passports as well as creators who have been active in the Netherlands for a significant time. It is a subset of the larger NADD Project Set. For most applications and we recommend using this dataset."
         }
     ],
     "creator": {
@@ -78,15 +78,19 @@
         "design",
         "ontwerp",
         "vormgeving",
+        "graphic design",
         "digitale cultuur",
         "digital culture",
         "wikidata",
-        "nadd"
+        "nadd",
+        "creators",
+        "artists"
     ],
     "genre": [
         "Erfgoed",
         "Heritage",
-        "Design"
+        "Design",
+        "Digital culture"
     ],
     "distribution": [
         {

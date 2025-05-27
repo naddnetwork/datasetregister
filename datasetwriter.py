@@ -48,6 +48,12 @@ class DatasetWriter:
                 }
             ]
 
+            if "temporal_coverage" in dset:
+                data["temporalCoverage"] = dset["temporal_coverage"]
+
+            if "keywords" in dset:
+                data["keywords"] += dset["keywords"]
+
             dist = data["distribution"][0]
             dist["name"] = "%s SPARQL query" % dset["name"]
             dist["contentUrl"] = "https://query.wikidata.org/#%s" % dset["sparql_query"]
