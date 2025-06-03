@@ -6,7 +6,7 @@
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
     "version": "1.0",
     "dateCreated": "2024-02-01T12:00",
-    "dateModified": "2025-05-27T12:32",
+    "dateModified": "2025-06-03T11:03",
     "datePublished": "2025-06-12T12:00",
     "inLanguage": [
         "nl-NL",
@@ -35,11 +35,11 @@
     "description": [
         {
             "@language": "nl",
-            "@value": "Deze dataset is de \u2018moederset\u2019, ontstaan in samenwerking met de partners van het NADD netwerk. Deze partners hebben hun data gedoneerd aan Wikidata om de auteursrechtelijke status van hun collecties te laten analyseren. Deze data is aangevuld met informatie van relevante publicaties zoals \u2018Vrouwen in Vormgeving\u2019, alle Nederlandse design awards en de Canon van de digitale Cultuur. Omdat in veel gevallen alle vervaardigers uit de datasets van de partners werden gedoneerd, zijn er in deze dataset soms ook kunstenaars te vinden die een minder sterke band hebben met design of digitale cultuur. Ook komen er andere opdrachtgevers voor kunst in voor, zoals landen en gemeenten. Om die reden raden we voor de meeste applicaties aan om de NADD Creators-set te gebruiken in plaats van de projectset."
+            "@value": "Deze dataset is de \u2018moederset\u2019, ontstaan in samenwerking met de partners van het NADD netwerk. Deze partners hebben hun data gedoneerd aan Wikidata om de auteursrechtelijke status van hun collecties te laten analyseren en persistente identifiers te cre\u00eberen voor makers (personen en organisaties). Deze data is aangevuld met informatie van relevante publicaties en bronnen, zoals \u2018Vrouwen in Vormgeving\u2019, alle Nederlandse design awards en de Canon van de digitale cultuur. Omdat in veel gevallen alle vervaardigers uit de datasets van de partners werden gedoneerd, zijn er in deze dataset ook kunstenaars te vinden die een minder sterke band hebben met design of digitale cultuur. Ook komen er andere opdrachtgevers voor kunst in voor, zoals landen en gemeenten. Wil je specifiek alleen makers uit ontwerpveld design of digitale cultuur gebruiken? Kies dan voor de NADD Creators-set, in plaats van deze projectset."
         },
         {
             "@language": "en",
-            "@value": "This dataset is the \u201cmother set\u201d, created in collaboration with the partners of the NADD network. These partners donated their data to Wikidata to have the copyright status of their collections analysed. This data was supplemented with information from relevant publications such as \u201cWomen in Design\u201d, all Dutch design awards and the Canon of Digital Culture. Because in many cases all the creators were donated from the partners' datasets, this dataset sometimes includes artists with a less strong connection to design or digital culture. It also includes other art patrons, such as countries and municipalities. For this reason, for most applications, we recommend using the NADD Creators set instead of the projects set."
+            "@value": "This dataset is the \u201cmother set\u201d, created in collaboration with the partners of the NADD network. These partners donated their data to Wikidata to have the copyright status of their collections analysed and create persistent identifiers for creators (individuals and organisations). This data was supplemented with information from relevant publications and sources, such as \u201cWomen in Design\u201d, all Dutch design awards and the Canon of Digital Culture. Because in many cases all makers were donated from the partners' datasets, this dataset also includes artists with a less strong connection to design or digital culture. It also includes other art patrons, such as countries and municipalities. If you only want use creators from design or digital culture fields we recommend the NADD Creators set."
         }
     ],
     "creator": {
