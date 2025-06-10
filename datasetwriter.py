@@ -56,7 +56,7 @@ class DatasetWriter:
 
             dist = data["distribution"][0]
             dist["name"] = "%s SPARQL query" % dset["name"]
-            dist["contentUrl"] = "https://query.wikidata.org/#%s" % dset["sparql_query"]
+            dist["contentUrl"] = dset["content_url"]
 
             export_path = Path("%s.jsonld" % dset["slug"])
 

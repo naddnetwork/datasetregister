@@ -6,7 +6,7 @@
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
     "version": "1.0",
     "dateCreated": "2024-02-01T12:00",
-    "dateModified": "2025-06-03T11:03",
+    "dateModified": "2025-06-10T15:21",
     "datePublished": "2025-06-12T12:00",
     "inLanguage": [
         "nl-NL",
@@ -95,7 +95,7 @@
             "@type": "DataDownload",
             "name": "NADD Project set SPARQL query",
             "encodingFormat": "application/sparql-results+json",
-            "contentUrl": "https://query.wikidata.org/#select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ123694075.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}",
+            "contentUrl": "https://w.wiki/ESEh",
             "description": "SPARQL endpoint",
             "license": "https://creativecommons.org/publicdomain/zero/1.0/",
             "inLanguage": [

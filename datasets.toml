@@ -1,10 +1,19 @@
+# Note that we're not actually using sparql_query in the JSONLD, these are just
+# put here as a reference
+
 [[datasets]]
 id = "https://nadd.network/info/open-data#nadd-creators"
 name = "NADD Creators"
 slug = "nadd-creators"
 description_en = "The NADD Creators dataset includes relevant Dutch designers and organisations, determined by criteria such as education, work experience, inclusion in museum collections, membership of professional organisations, publications and awards. The dataset includes Dutch nationals with passports as well as creators who have been active in the Netherlands for a significant time. It is a subset of the larger NADD Project Set. For most applications and we recommend using this dataset."
 description_nl = "De NADD Creators dataset bevat relevante Nederlandse ontwerpers en organisaties, bepaald door criteria als opleiding, werkervaring, opname in museumcollecties, lidmaatschap van professionele organisaties, publicaties en prijzen. De dataset omvat zowel makers met een Nederlanders paspoort als ontwerpers die al geruime tijd in Nederland actief zijn. Het is een subset van de grotere NADD Projectset. Voor de meeste toepassingen raden we deze dataset aan."
-sparql_query = "select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ133504755.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}"
+sparql_query = """
+select ?item ?itemLabel where {
+  ?item wdt:P5008 wd:Q133504755.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],nl,en,mul". }
+}
+"""
+content_url = "https://w.wiki/ESEe"
 keywords = ["creators", "artists"]
 temporal_coverage = "1440/.."
 
@@ -14,7 +23,13 @@ name = "NADD Project set"
 slug = "nadd-projectset"
 description_en = "This dataset is the “mother set”, created in collaboration with the partners of the NADD network. These partners donated their data to Wikidata to have the copyright status of their collections analysed and create persistent identifiers for creators (individuals and organisations). This data was supplemented with information from relevant publications and sources, such as “Women in Design”, all Dutch design awards and the Canon of Digital Culture. Because in many cases all makers were donated from the partners' datasets, this dataset also includes artists with a less strong connection to design or digital culture. It also includes other art patrons, such as countries and municipalities. If you only want use creators from design or digital culture fields we recommend the NADD Creators set."
 description_nl = "Deze dataset is de ‘moederset’, ontstaan in samenwerking met de partners van het NADD netwerk. Deze partners hebben hun data gedoneerd aan Wikidata om de auteursrechtelijke status van hun collecties te laten analyseren en persistente identifiers te creëeren voor makers (personen en organisaties). Deze data is aangevuld met informatie van relevante publicaties en bronnen, zoals ‘Vrouwen in Vormgeving’, alle Nederlandse design awards en de Canon van de digitale cultuur. Omdat in veel gevallen alle vervaardigers uit de datasets van de partners werden gedoneerd, zijn er in deze dataset ook kunstenaars te vinden die een minder sterke band hebben met design of digitale cultuur. Ook komen er andere opdrachtgevers voor kunst in voor, zoals landen en gemeenten. Wil je specifiek alleen makers uit ontwerpveld design of digitale cultuur gebruiken? Kies dan voor de NADD Creators-set, in plaats van deze projectset."
-sparql_query = "select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ123694075.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}"
+sparql_query = """
+select ?item ?itemLabel where {
+  ?item wdt:P5008 wd:Q123694075.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],nl,en,mul". }
+}
+"""
+content_url = "https://w.wiki/ESEh"
 temporal_coverage = "1100/.."
 
 [[datasets]]
@@ -23,5 +38,11 @@ name = "NADD Occupations"
 slug = "nadd-occupations"
 description_en = "This relatively small set has been developed so that professions relevant to NADD can be well documented and visualised. Think of professions such as “graphic designer”, “stamp designer” and “multimedia artist”. This set is used internally to properly manage and visualise the “NADD creator” set. The idea is to continue working on this set with NADD partners in the future, as a controlled vocabulary."
 description_nl = "Deze relatief kleine set is ontwikkeld zodat voor het NADD relevante beroepen goed te documenteren en visualiseren zijn. Denk aan beroepen zoals 'graficus', 'postzegelontwerper' en 'multimedia-kunstenaar'. Deze set wordt intern gebruikt om de 'NADD creator'-set goed te beheren en te visualiseren. Het idee is om in de toekomst aan deze set verder te werken met de partners van NADD, als een controlled vocabulary."
-sparql_query = "select %3Fitem %3FitemLabel where {%0A%20 %3Fitem wdt%3AP5008 wd%3AQ133270020.%0A%20 service wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage \"nl%2Cmul%2Cen\". }%0A}"
+sparql_query = """
+select ?item ?itemLabel where {
+  ?item wdt:P5008 wd:Q133270020.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],nl,en,mul". }
+}
+"""
+content_url = "https://w.wiki/ESEi"
 keywords = ["occupations", "controlled vocabulary", "thesaurus"]
