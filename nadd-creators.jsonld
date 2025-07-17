@@ -2,11 +2,11 @@
     "@context": "http://schema.org/",
     "@type": "Dataset",
     "@id": "https://nadd.network/info/open-data#nadd-creators",
-    "name": "NADD Creators",
+    "name": "NADD Creators: Nederlandse ontwerpers en makers binnen het design- en digitale cultuurveld",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
     "version": "1.0",
     "dateCreated": "2024-02-01T12:00",
-    "dateModified": "2025-06-10T15:21",
+    "dateModified": "2025-07-17T11:37",
     "datePublished": "2025-06-12T12:00",
     "inLanguage": [
         "nl-NL",
@@ -83,6 +83,12 @@
         "digital culture",
         "wikidata",
         "nadd",
+        "kunstnijverheid",
+        "arts and crafts",
+        "ambacht",
+        "craft",
+        "ontwerpveld",
+        "design field",
         "creators",
         "artists"
     ],
@@ -95,7 +101,7 @@
     "distribution": [
         {
             "@type": "DataDownload",
-            "name": "NADD Creators SPARQL query",
+            "name": "NADD Creators: Nederlandse ontwerpers en makers binnen het design- en digitale cultuurveld SPARQL query",
             "encodingFormat": "application/sparql-results+json",
             "contentUrl": "https://w.wiki/ESEe",
             "description": "SPARQL endpoint",

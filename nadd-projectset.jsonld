@@ -2,11 +2,11 @@
     "@context": "http://schema.org/",
     "@type": "Dataset",
     "@id": "https://nadd.network/info/open-data#nadd-projectset",
-    "name": "NADD Project set",
+    "name": "NADD Project set: ontwerpers en makers binnen het design- en digitale cultuurveld bekend bij Nederlandse instellingen",
     "license": "http://creativecommons.org/publicdomain/zero/1.0/",
     "version": "1.0",
     "dateCreated": "2024-02-01T12:00",
-    "dateModified": "2025-06-10T15:21",
+    "dateModified": "2025-07-17T11:37",
     "datePublished": "2025-06-12T12:00",
     "inLanguage": [
         "nl-NL",
@@ -82,7 +82,13 @@
         "digitale cultuur",
         "digital culture",
         "wikidata",
-        "nadd"
+        "nadd",
+        "kunstnijverheid",
+        "arts and crafts",
+        "ambacht",
+        "craft",
+        "ontwerpveld",
+        "design field"
     ],
     "genre": [
         "Erfgoed",
@@ -93,7 +99,7 @@
     "distribution": [
         {
             "@type": "DataDownload",
-            "name": "NADD Project set SPARQL query",
+            "name": "NADD Project set: ontwerpers en makers binnen het design- en digitale cultuurveld bekend bij Nederlandse instellingen SPARQL query",
             "encodingFormat": "application/sparql-results+json",
             "contentUrl": "https://w.wiki/ESEh",
             "description": "SPARQL endpoint",
